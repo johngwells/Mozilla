@@ -86,7 +86,7 @@ cats.length = 3 // logs [ <3 empty items> ]
 
 // *** Iterating over arrays ***
 // A common operation is to iterate over the values of an array
-// processing each one in some way
+// processing each one in some way. Its not advised to use For in.
 
 var colors = ['red', 'green', 'blue'];
 for (var i = 0; i < colors.length; i++) {
